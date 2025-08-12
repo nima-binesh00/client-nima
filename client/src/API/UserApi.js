@@ -1,5 +1,5 @@
 import { getdata, updatedata, deletedata, post } from "../utils/FetchApi";
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "https://backend-1-nima-server.onrender.com/";
 
 export const Singupuser = async (data) => {
   try {
