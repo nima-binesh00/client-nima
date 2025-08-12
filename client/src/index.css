@@ -1,0 +1,160 @@
+* {
+  color: #ffe74b !important;
+  font-family: "Poppins", "Roboto", sans-serif !important;
+
+  /* color: #ffd700 !important; */
+}
+i {
+  cursor: pointer !important;
+}
+
+.hovericon:hover > :not(:hover) > .icondisply {
+  display: inline !important;
+}
+.hittmin {
+  min-height: 100vh !important;
+  /* background-color: rgb(17, 189, 74) !important; */
+}
+.buttenww {
+  width: fit-content;
+  font-size: small;
+}
+.boderbutten {
+  /* border-bottom: 1px black solid; */
+}
+.toop {
+  top: -27px !important ;
+  border-radius: 0%;
+}
+.fasele {
+  padding-left: 20px !important ;
+}
+
+.bgdark {
+  background-color: #0d0d1f !important;
+}
+.bgdarkblue {
+  background-color: #0c0c29 !important;
+}
+.card {
+  background-color: #0d0d1f;
+
+  color: #ffd700 !important;
+  /* box-shadow: 0 0 10px #663399, 0 0 20px #663399,
+    0 0 30px rgba(102, 51, 153, 0.6) !important; glow effect */
+
+  transition: all 0.3s ease;
+}
+.borderred {
+  border-radius: 12px;
+  border: 1px solid #7c40b9;
+}
+.card:hover {
+  box-shadow: 0 0 10px #663399, 0 0 20px #663399,
+    0 0 30px rgba(102, 51, 153, 0.6) !important;
+}
+.btbgr {
+  background: rgb(5, 137, 163) !important;
+  color: white !important;
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+}
+.btb {
+  background: #020024;
+  background: linear-gradient(
+    43deg,
+    rgba(2, 0, 36, 0.88) 0%,
+    rgba(4, 4, 130, 1) 100%,
+    rgba(0, 212, 255, 0.23) 56%
+  );
+}
+.icongr {
+  color: rgba(22, 22, 224, 0.767) !important;
+}
+.gradntcomplet {
+  background: #020024 !important;
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.96) 58%,
+    rgba(0, 212, 255, 1) 100%
+  ) !important;
+}
+.wits {
+  color: #ce53ffd5 !important;
+  width: fit-content;
+}
+.wits > * {
+  color: #ce53ffd5 !important;
+}
+.modal-content {
+  background-color: #1a1a2e !important;
+}
+.custom-modal {
+  background-color: #1a1a2e !important;
+  color: #ffd700;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #8a2be2;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-modal .form-label {
+  color: #cfcfcf;
+}
+
+.custom-modal .form-control,
+.custom-modal .form-select {
+  background-color: #0d0d1f;
+  border: 1px solid #8a2be2;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.custom-modal .form-control:focus,
+.custom-modal .form-select:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 8px #ffd700;
+}
+
+.neon-btn {
+  background-color: #8a2be2;
+  border: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.neon-btn:hover {
+  background-color: #6a1cb8;
+  box-shadow: 0 0 10px #8a2be2;
+}
+.Numberone {
+  background-color: #250c3d !important;
+}
+.falsecomplet {
+  background: #020024 !important;
+  background: linear-gradient(
+    171deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  ) !important;
+}
+.description-text {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+#leave-button {
+  background: #992dff !important;
+
+  border-radius: 15px !important;
+}
+
+.bgdark.dropdown-menu {
+  position: static !important;
+  transform: none !important;
+  will-change: unset !important;
+}
